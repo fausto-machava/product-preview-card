@@ -59,6 +59,7 @@ body {
 .right h1 {
     font-size: 2rem;
     color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
 }
 
 .price {
