@@ -17,10 +17,11 @@ body {
 }
 
 .main {
-    display: flex;
+    display: grid;
     background-color: hsl(0, 0%, 100%);
     width: 41rem;
     border-radius: 0.5rem;
+    grid-template-columns: 1fr 1fr;
 }
 
 .img {
@@ -28,10 +29,6 @@ body {
     height: 100%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
-}
-
-.main div {
-    width: 50%;
 }
 
 .right {
@@ -96,6 +93,7 @@ button:hover {
 
 @media (max-width: 375px) {
     .main {
+        display: flex;
         flex-direction: column;
         margin: 2rem;
     }
