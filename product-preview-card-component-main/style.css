@@ -19,7 +19,7 @@ body {
 .main {
     display: flex;
     background-color: hsl(0, 0%, 100%);
-    width: 35rem;
+    width: 41rem;
     border-radius: 0.5rem;
 }
 
